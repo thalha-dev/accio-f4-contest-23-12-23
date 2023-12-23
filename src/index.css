@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dark-1: #333333;
+  --dark-2: #757575;
+  --light-1: #f5f5f5;
+  --light-2: #fff;
+  --green-1: #44ad7a;
+  --blue-1: #625bf7;
+}
+
+body {
+  margin: 0;
+  font-family: "Mulish", Helvetica, sans-serif;
+  background: var(--light-1);
+  color: var(--dark-1);
+}
