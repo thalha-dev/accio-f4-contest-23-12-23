@@ -46,6 +46,7 @@ export default function ProfilePage() {
       })
       .then((data) => {
         setUserInfo(data);
+        localStorage.setItem("userData", JSON.stringify(data));
       })
       .catch((res) => {
         res.json().then((error) => {
